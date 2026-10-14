@@ -14,5 +14,5 @@ setuptools<70.0.0
 
 # Voice attendance (optional, heavy: installs PyTorch). The app runs without it
 # and shows a clear message if voice features are used.
-# librosa
-# resemblyzer
+librosa
+resemblyzer
