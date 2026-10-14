@@ -1,0 +1,115 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.so
+
+# ==============================
+# Virtual Environments
+# ==============================
+venv/
+venv313/
+.venv/
+env/
+ENV/
+
+# ==============================
+# Environment Variables & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.streamlit/secrets/
+secrets.toml
+secrets.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# ==============================
+# Supabase / Database Credentials
+# ==============================
+supabase/.temp/
+supabase/.branches/
+
+# ==============================
+# Streamlit
+# ==============================
+.streamlit/credentials.toml
+
+# ==============================
+# Jupyter Notebook
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Testing & Coverage
+# ==============================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==============================
+# Build & Distribution
+# ==============================
+build/
+dist/
+*.egg
+*.egg-info/
+wheels/
+pip-wheel-metadata/
+
+# ==============================
+# IDEs & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==============================
+# Logs & Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Local Data & Model Artifacts
+# ==============================
+*.sqlite
+*.sqlite3
+*.db
+*.pkl
+*.pickle
+
+# ==============================
+# Node.js (if applicable)
+# ==============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# Local Configuration
+# ==============================
+*.local

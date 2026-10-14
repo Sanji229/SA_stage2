@@ -1,0 +1,18 @@
+# Runtime dependencies. Tested with Python 3.12 and Streamlit 1.65.
+streamlit>=1.50,<2
+supabase>=2.0,<3
+bcrypt>=4.0
+numpy
+pandas
+pillow
+segno
+
+# Face recognition (pre-built dlib wheel; no compiler needed)
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0
+
+# Voice attendance (optional, heavy: installs PyTorch). The app runs without it
+# and shows a clear message if voice features are used.
+# librosa
+# resemblyzer
